@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital,wght@0,800;1,800&display=swap');
+
+body {
+    margin: 0;
+    background-color: #000;
+    color: #D5D4D8;
+    font-family: "Inter", sans-serif;
+}
+
+#app-box {
+    width: 450px;
+    margin:  auto;
+    border: 3px white solid;
+    border-radius: 25px;
+    background-color: #1F2937;
+    padding: 35px 50px
+}
+
+h1 {
+    color: #fff;
+    font-family: "Karla", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;  
+    margin: 0;
+    letter-spacing: -.025em;
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.highlight {
+    color: #4ADF86;
+}
+
+#passbtn-el {
+    background-color: #10B981;
+    color: #fff;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 40px 0 20px;
+}
+
+hr {
+    background-color: #2F3E53;
+    height: 1px;
+    border: none;   
+}
+
+.pass-box {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.passresult {
+    height: 40px;
+    min-width: 200px;
+    max-width: max-content;
+    padding: 0 10px;
+    background-color: #273549;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 10px 20px 0;
+    text-align: center;
+    line-height: 40px;
+    color: #55F991;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.passresult:hover, .passresult:focus {
+    border: #55F991 solid 2px;
+    height: 36px;
+    line-height: 36px;
+    min-width: 196px;
+}
+
+.options {
+    list-style: none;
+    margin: 5px -10px;
+}
+
+li p {
+    font-size: smaller;
+    margin: 5px;
+}
+
+#errorMsg-el {
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+#pwdLength-el {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#slider-el {
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
